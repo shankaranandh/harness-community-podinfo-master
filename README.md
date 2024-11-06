@@ -29,7 +29,7 @@ docker network create gitness
 docker network ls
 ```
 
-### Create a local Docker registry
+### Create a local Docker Registry
 
 Create a k3d Docker registry to contain the built Docker image for deployment.
 
