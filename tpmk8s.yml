@@ -22,15 +22,3 @@ spec:
             cpu: 200m
           limits:
             cpu: 500m
-apiVersion: autoscaling/v1
-kind: HorizontalPodAutoscaler
-metadata:
-  name: sample-webapp-hpa
-spec:
-  scaleTargetRef:
-    apiVersion: apps/v1
-    kind: Deployment
-    name: sample-webapp
-  minReplicas: 2
-  maxReplicas: 10
-  targetCPUUtilizationPercentage: 50
