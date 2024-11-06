@@ -8,7 +8,7 @@ pipeline:
     - stage:
         name: deploy-dev
         identifier: deploy
-        description: ""
+        description: "Hi this is shanklar"
         type: Deployment
         spec:
           deploymentType: Kubernetes
