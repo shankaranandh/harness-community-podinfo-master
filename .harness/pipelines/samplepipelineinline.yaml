@@ -8,7 +8,7 @@ pipeline:
     - stage:
         name: deploy-dev
         identifier: deploy
-        description: ""
+        description: "hi this is prasad satam"
         type: Deployment
         spec:
           deploymentType: Kubernetes
