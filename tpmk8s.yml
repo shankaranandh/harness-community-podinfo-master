@@ -12,6 +12,7 @@ spec:
       labels:
         app: sample-webapp
         env: dev
+        cluster-name: code-team
     spec:
       containers:
       - name: webapp
